@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEmail2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btne22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#44a6c6"
+
+        android:text="edite_info"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/btne0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#44a6c6"
+
+        android:text="DELETE"
+        android:textColor="@android:color/white" />
+
+
+
+</LinearLayout>
